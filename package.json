@@ -10,7 +10,7 @@
     "deploy": "gh-pages -d public"
   },
   "dependencies": {
-    "pixi.js": "^4.5.3"
+    "pixi": "file:./local_modules/pixi/"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",

@@ -1,4 +1,4 @@
-const PIXI = require('pixi.js');
+import PIXI from 'pixi';
 import Keyboard from './Keyboard';
 
 export default class Player {

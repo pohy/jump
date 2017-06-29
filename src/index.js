@@ -1,4 +1,4 @@
-const PIXI = require('pixi.js');
+import PIXI from 'pixi';
 import Player from './Player';
 
 const WIDTH = 854;
