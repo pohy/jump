@@ -1,6 +1,6 @@
 let keyboard = null;
 
-module.exports = class Keyboard {
+export default class Keyboard {
     constructor() {
         window.addEventListener('keydown', this.onKey);
         window.addEventListener('keypress', this.onKey);
